@@ -16,15 +16,15 @@ function ManageExpense({ route, navigation }) {
     }, [navigation, isEditing])
 
     function onRemoveExpense() {
-
+        navigation.goBack()
     }
 
     function onCancel() {
-
+        navigation.goBack()
     }
 
     function onConfirm() {
-        
+        navigation.goBack()
     }
 
     return (
