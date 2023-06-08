@@ -16,6 +16,7 @@ function ManageExpense({ route, navigation }) {
     }, [navigation, isEditing])
 
     function onRemoveExpense() {
+        
         navigation.goBack()
     }
 

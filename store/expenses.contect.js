@@ -54,7 +54,6 @@ const EXPENSES = [
 export const ExpensesContext = createContext({
     expenses: [],
     addExpense: ({ description, amount, date }) => {
-
     },
     removeExpense: (id) => { },
     updateExpense: (id, { description, amount, date }) => { }
