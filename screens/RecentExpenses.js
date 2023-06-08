@@ -1,8 +1,8 @@
-import { Text } from "react-native"
+import ExpensesOutput from "../cmps/ExpensesOutput/ExpensesOutput"
 
 function RecentExpense() {
     return (
-        <Text>RecentExpense Screen</Text>
+        <ExpensesOutput expensesPeriod='Last 7 days'/>
     )
 }
 
